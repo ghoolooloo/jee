@@ -8,6 +8,7 @@ public class User {
   private String email;
   private String subject;
   private Set<String> roles;
+  private Set<String> roles2;
 
   public String getUsername() {
     return username;
@@ -42,5 +43,12 @@ public class User {
   }
   public void setRoles(Set<String> roles) {
     this.roles = roles;
+  }
+
+  public Set<String> getRoles2() {
+    return roles2;
+  }
+  public void setRoles2(Set<String> roles2) {
+    this.roles2 = roles2;
   }
 }
