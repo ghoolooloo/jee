@@ -1,0 +1,13 @@
+swarm:
+  deployment:
+    jee.war:
+      web:
+        login-config:
+          auth-method: KEYCLOAK
+        security-constraints:
+          - url-pattern: /users/*
+            methods: [GET]
+            roles: [user]
+          - url-pattern: /users/*
+            methods: [POST]
+            roles: [root]
