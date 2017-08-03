@@ -16,7 +16,7 @@ public class HelloWorldEndpoint {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response doGet(@Context HttpServletResponse response) {
-		// 这是未被保护的资源，不需要登录，因此enable-cors无效，需要显式设置跨域头
+		// 这是未被保护的资源，不需要登录，需要显式设置跨域头
 		response.setHeader("Access-Control-Allow-Origin", "*");
 
 		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");

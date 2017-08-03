@@ -7,7 +7,7 @@ swarm:
         security-constraints:
           - url-pattern: /users/*
             methods: [GET]
-            roles: [user]
+            roles: [user,some]
           - url-pattern: /users/*
             methods: [POST]
             roles: [root]
