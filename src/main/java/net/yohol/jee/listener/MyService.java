@@ -1,4 +1,4 @@
-package net.yohol.jee.app;
+package net.yohol.jee.listener;
 
 import javax.enterprise.context.ApplicationScoped;
 

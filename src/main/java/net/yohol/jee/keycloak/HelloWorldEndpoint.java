@@ -1,4 +1,4 @@
-package net.yohol.jee.rest;
+package net.yohol.jee.keycloak;
 
 import javax.ws.rs.Path;
 import javax.ws.rs.GET;

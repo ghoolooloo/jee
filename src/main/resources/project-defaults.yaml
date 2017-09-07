@@ -1,4 +1,6 @@
 swarm:
+  context:
+    path: /jee
   deployment:
     jee.war:
       web:
