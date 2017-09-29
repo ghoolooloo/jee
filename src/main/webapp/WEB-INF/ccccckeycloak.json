@@ -6,6 +6,5 @@
   "credentials": {
     "secret": "179862ec-6479-4666-969a-4ee33d300340"
   },
-  "use-resource-role-mappings": true,
   "enable-cors": true
 }

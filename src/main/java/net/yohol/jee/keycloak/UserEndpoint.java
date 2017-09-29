@@ -33,7 +33,7 @@ public class UserEndpoint {
       user.setSubject(accessToken.getSubject());
       user.setUsername(accessToken.getPreferredUsername());
       user.setRoles(accessToken.getRealmAccess().getRoles());
-      user.setRoles2(accessToken.getResourceAccess("jee").getRoles());
+      //user.setRoles2(accessToken.getResourceAccess("jee").getRoles());
     }
     return user;
   }

@@ -13,3 +13,14 @@ swarm:
           - url-pattern: /users/*
             methods: [POST]
             roles: [root]
+  keycloak:
+    secure-deployments:
+      jee.war:
+        realm: demo
+        auth-server-url: http://auth.jo:8080/auth
+        ssl-required: external
+        resource: jee
+        credentials:
+          secret: 
+            value: 179862ec-6479-4666-969a-4ee33d300340
+        enable-cors: true
